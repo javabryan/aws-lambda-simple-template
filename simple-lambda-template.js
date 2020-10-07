@@ -1,6 +1,6 @@
 'use strict';
 
-// Close dialog with the customer, reporting fulfillmentState of Failed or Fulfilled
+// Close dialog, reporting fulfillmentState of Failed or Fulfilled
 function close(sessionAttributes, fulfillmentState, message) {
     return {
         sessionAttributes,
